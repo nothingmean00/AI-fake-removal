@@ -7,8 +7,8 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' })
 
 export const metadata: Metadata = {
-  title: 'AI Fake Removal — Professional AI Content Removal Services',
-  description: 'Discreet, professional removal of non-consensual AI-generated images and manipulated content from the internet. Confidential case handling with fast response times.',
+  title: 'AI Fake Removal — Get Fake AI Images Taken Down Fast',
+  description: 'Someone posted fake AI images of you? We get them removed — from Instagram, TikTok, X, Reddit, Google, and 50+ platforms. Fast, discreet, confidential. Deepfake removal, AI-generated image takedowns, and search de-indexing for individuals, professionals, and public figures.',
 }
 
 export default function RootLayout({

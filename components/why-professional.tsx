@@ -6,28 +6,28 @@ import { useInView } from "@/hooks/use-in-view"
 
 const comparison = [
   {
-    self: "Automated systems ignore context and nuance",
-    pro: "Human case managers understand your situation",
+    self: "Your report gets lost in an automated review queue",
+    pro: "We use the exact language and documentation that triggers platform action",
   },
   {
-    self: "Evidence may be lost or improperly documented",
-    pro: "Proper evidence preservation and documentation",
+    self: "You screenshot the post but lose forensic-quality evidence",
+    pro: "Proper evidence preservation that holds up in legal proceedings",
   },
   {
-    self: "Standard reporting forms often fail silently",
-    pro: "Access to hidden escalation pathways",
+    self: "One platform at a time — while copies spread to others",
+    pro: "Coordinated takedowns across every platform simultaneously",
   },
   {
-    self: "One platform at a time, missing copies elsewhere",
-    pro: "Coordinated multi-platform approach",
+    self: "Platform says it \"doesn't violate their policy\"",
+    pro: "We know which policy lever to pull on each platform — copyright, impersonation, harassment, NCII, or DMCA",
   },
   {
-    self: "DMCA errors can delay or prevent removal",
-    pro: "Precise legal compliance and filing",
+    self: "Content keeps getting re-uploaded after you report it",
+    pro: "Continuous monitoring catches re-uploads and new instances automatically",
   },
   {
-    self: "Content spreads while you figure out the process",
-    pro: "Immediate professional action saves time",
+    self: "You're re-traumatized every time you have to look at the content",
+    pro: "We handle everything — you share the details once, then we take over",
   },
 ]
 
@@ -46,12 +46,12 @@ export function WhyProfessional() {
         <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-16">
           <div className="max-w-2xl">
             <p className="text-[11px] tracking-[0.2em] uppercase text-accent font-semibold mb-4">
-              Why Professional Help
+              Why Us, Not DIY
             </p>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-[2.75rem] font-semibold text-card-foreground tracking-tight leading-[1.15] text-balance">
-              Self-Reporting Often Fails.
+              When You&apos;re Scared or Humiliated,
               <br className="hidden md:block" />
-              <span className="text-accent">Professional Action Gets Results.</span>
+              <span className="text-accent">You Want an Operator. Not Homework.</span>
             </h2>
           </div>
           <Button
@@ -60,7 +60,7 @@ export function WhyProfessional() {
             className="bg-primary text-primary-foreground hover:bg-primary/90 group w-fit font-semibold h-12 px-6"
           >
             <a href="#contact" className="flex items-center gap-2">
-              Get Professional Help
+              Get Help Now
               <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-0.5" />
             </a>
           </Button>
@@ -76,12 +76,12 @@ export function WhyProfessional() {
           >
             <div className="px-6 lg:px-8 py-4 border-r border-primary-foreground/[0.08]">
               <p className="text-[11px] tracking-[0.2em] uppercase font-semibold text-primary-foreground/40">
-                Self-Reporting
+                Doing It Yourself
               </p>
             </div>
             <div className="px-6 lg:px-8 py-4">
               <p className="text-[11px] tracking-[0.2em] uppercase font-semibold text-accent">
-                Professional Help
+                Working With Us
               </p>
             </div>
           </div>

@@ -11,36 +11,44 @@ import {
 
 const faqs = [
   {
-    question: "How much does your service cost?",
-    answer: "Pricing depends on case complexity, the number of platforms involved, and the type of content. After reviewing your case, we provide a transparent quote before any work begins. No hidden fees.",
+    question: "Someone made a fake AI image of me. Can you help?",
+    answer: "Yes. This is exactly what we do. Whether it's on Instagram, TikTok, Reddit, Telegram, a porn site, or anywhere else — we identify every instance, file the proper reports using the right legal and policy language, and follow up until the content is removed. You share the details once, and we take it from there.",
   },
   {
-    question: "Can you guarantee removal?",
-    answer: "We cannot guarantee removal in every case. Outcomes depend on platform policies, jurisdiction, and content type. We are transparent about expected outcomes during review and advise honestly about options.",
+    question: "How much does this cost?",
+    answer: "We offer three levels of service. Guided Removal starts at $99 — we arm you with the right reports and instructions. Done-For-You starts at $500 — we handle the entire process for you. Crisis Response starts at $5,000 for emergency situations requiring immediate action, legal coordination, and continuous monitoring. We provide a transparent quote after reviewing your case. No hidden fees.",
+  },
+  {
+    question: "Can you guarantee the content will be removed?",
+    answer: "We facilitate compliance with platform policies and applicable laws, including the TAKE IT DOWN Act. We cannot guarantee removal in every case — outcomes depend on the platform, jurisdiction, and content type. What we can guarantee is that we'll use every available lever and be completely transparent about expected outcomes before any work begins.",
   },
   {
     question: "How long does removal take?",
-    answer: "Most platform-based removals are completed within 2 to 6 weeks. Search engine de-indexing may take additional time. Urgent cases involving immediate harm receive expedited handling.",
-  },
-  {
-    question: "Is my information kept confidential?",
-    answer: "Absolutely. All case information is handled under strict confidentiality protocols. We do not share your identity or case details with third parties. All communications are encrypted.",
+    answer: "Most platform-based removals are completed within 1 to 4 weeks. Crisis cases are handled within days. Search engine de-indexing may take additional time. The sooner you reach out, the faster and more effective removal is — content that has been online longer is harder to fully eliminate.",
   },
   {
     question: "Are you a law firm?",
-    answer: "No. We are not a law firm and do not provide legal advice. We assist with platform compliance processes, content reporting, and removal procedures. If legal action is recommended, we can refer you to qualified attorneys.",
+    answer: "No. We are not a law firm and do not provide legal advice. We assist with platform reporting and compliance facilitation — meaning we know exactly how to file reports that platforms act on. If your situation requires legal action, we refer you to qualified attorneys we work with.",
   },
   {
     question: "What platforms do you work with?",
-    answer: "We have experience with all major social media platforms, search engines, image hosting sites, forums, and websites. If content appears on an unfamiliar platform, we research its specific removal process.",
+    answer: "We cover 50+ platforms including Instagram, TikTok, X, Reddit, Facebook, YouTube, Telegram, Google Search, Google Images, Bing, adult and tube sites, forums, image boards, hosting providers, and domain registrars. If content appears on a platform we haven't seen before, we research its specific removal process.",
   },
   {
-    question: "What if the content reappears?",
-    answer: "We offer ongoing monitoring services that detect re-uploads and new instances. If content reappears, we initiate removal promptly at no additional charge during your monitoring period.",
+    question: "The content is on a porn site. Can you still help?",
+    answer: "Yes. We regularly handle removals from adult sites. We work with hosting providers, domain registrars, and leverage DMCA takedowns and the TAKE IT DOWN Act. These sites often respond faster than social media platforms when approached correctly.",
   },
   {
-    question: "Do I need to provide evidence?",
-    answer: "We ask for whatever information you can share, but understand this can be difficult. Our team assists with evidence gathering, documentation, and preservation as part of the process.",
+    question: "I already tried reporting it myself and nothing happened.",
+    answer: "This is extremely common. Platforms have specific triggers — certain language, certain documentation, certain escalation paths — that produce faster action. Standard user reports often get lost in automated review systems. We know which lever to pull on which platform because we've done this hundreds of times.",
+  },
+  {
+    question: "What if the content reappears after removal?",
+    answer: "We offer ongoing monitoring services that continuously scan for re-uploads and new instances. If content reappears during your monitoring period, we initiate removal immediately at no additional charge. For high-profile cases, we recommend continuous monitoring as a retainer.",
+  },
+  {
+    question: "Is my information kept confidential?",
+    answer: "Absolutely. All case information is handled under strict confidentiality protocols. We do not share your identity or case details with any third party. All communications are encrypted end-to-end. Your privacy is the entire point of what we do.",
   },
 ]
 
@@ -60,16 +68,18 @@ export function FAQ() {
               Questions & Answers
             </p>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-[2.75rem] font-semibold text-card-foreground tracking-tight leading-[1.15] text-balance">
-              Frequently Asked Questions
+              You Have Questions.
+              <br className="hidden md:block" />
+              We Have Honest Answers.
             </h2>
             <p className="mt-4 text-muted-foreground leading-relaxed">
-              We understand you have concerns. Here are honest answers to the
-              most common questions we receive.
+              We know you&apos;re dealing with something stressful. Here are
+              straightforward answers to what people ask us most.
             </p>
 
             <div className="mt-8 p-5 rounded-xl bg-primary/[0.03] border border-border">
               <p className="text-sm text-muted-foreground mb-4 leading-relaxed">
-                Have a question not answered here? Reach out confidentially.
+                Don&apos;t see your question? Reach out confidentially — no obligation.
               </p>
               <Button
                 asChild
@@ -77,7 +87,7 @@ export function FAQ() {
                 className="bg-primary text-primary-foreground hover:bg-primary/90 group font-semibold h-10 px-5"
               >
                 <a href="#contact" className="flex items-center gap-2">
-                  Ask a Question
+                  Ask Us Anything
                   <ArrowRight className="h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-x-0.5" />
                 </a>
               </Button>

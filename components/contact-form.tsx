@@ -59,13 +59,13 @@ export function ContactForm() {
               Get Started
             </p>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-[2.75rem] font-semibold text-foreground tracking-tight leading-[1.15] text-balance">
-              Start Your
+              You Don&apos;t Have to
               <br />
-              Confidential Request
+              Face This Alone
             </h2>
             <p className="mt-4 text-muted-foreground leading-relaxed">
-              Share only what you are comfortable with. All submissions are
-              encrypted and handled under strict confidentiality.
+              Share what you&apos;re comfortable with. We handle the rest.
+              All submissions are encrypted and treated with absolute confidentiality.
             </p>
 
             {/* Trust elements */}
@@ -154,11 +154,12 @@ export function ContactForm() {
                       <SelectValue placeholder="Select type" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="ai-images">AI-Generated / Manipulated Images</SelectItem>
-                      <SelectItem value="impersonation">Impersonation / Fake Profiles</SelectItem>
-                      <SelectItem value="harassment">Harassment / Defamation</SelectItem>
-                      <SelectItem value="non-consensual">Non-Consensual Content</SelectItem>
-                      <SelectItem value="other">Other / Multiple Issues</SelectItem>
+                      <SelectItem value="ai-images">Fake AI Images of Me</SelectItem>
+                      <SelectItem value="intimate">AI-Generated Intimate Images</SelectItem>
+                      <SelectItem value="impersonation">Fake Profiles Using My Likeness</SelectItem>
+                      <SelectItem value="managed">On Behalf of Someone I Manage</SelectItem>
+                      <SelectItem value="multi-platform">Multiple Platforms / Complex Case</SelectItem>
+                      <SelectItem value="other">Other</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
@@ -171,10 +172,10 @@ export function ContactForm() {
                       <SelectValue placeholder="Select urgency" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="critical">Critical - Immediate harm</SelectItem>
-                      <SelectItem value="high">High - Active situation</SelectItem>
-                      <SelectItem value="moderate">Moderate - Ongoing concern</SelectItem>
-                      <SelectItem value="standard">Standard - Prevention</SelectItem>
+                      <SelectItem value="critical">Emergency — Content is actively spreading</SelectItem>
+                      <SelectItem value="high">Urgent — Discovered recently</SelectItem>
+                      <SelectItem value="moderate">Ongoing — Content has been up for a while</SelectItem>
+                      <SelectItem value="standard">Prevention — Want monitoring set up</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
@@ -207,7 +208,7 @@ export function ContactForm() {
                 className="bg-primary text-primary-foreground hover:bg-primary/90 h-13 text-sm font-semibold group transition-all duration-300 hover:shadow-xl hover:shadow-primary/15"
               >
                 <span className="flex items-center gap-2.5">
-                  Submit Confidential Request
+                  Get Help Now
                   <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-0.5" />
                 </span>
               </Button>

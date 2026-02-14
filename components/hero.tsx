@@ -1,6 +1,6 @@
 "use client"
 
-import { ShieldCheck, Lock, Clock, ArrowRight, ChevronDown } from "lucide-react"
+import { ShieldCheck, Lock, Clock, ArrowRight, ChevronDown, Zap } from "lucide-react"
 import { Logo } from "@/components/logo"
 import { Button } from "@/components/ui/button"
 
@@ -44,22 +44,22 @@ export function Hero() {
                 <div className="absolute w-2 h-2 rounded-full bg-emerald-400 animate-ping" />
               </div>
               <span className="text-[11px] tracking-[0.18em] uppercase text-primary-foreground/40 font-semibold">
-                Accepting Confidential Cases
+                Accepting Confidential Cases Now
               </span>
             </div>
 
             <h1 className="animate-fade-up delay-100 font-serif text-4xl sm:text-5xl md:text-6xl lg:text-[4.25rem] xl:text-7xl font-medium leading-[1.06] tracking-tight text-balance">
-              Protect Your
+              Fake AI Images
               <br />
-              Reputation.
+              of You Online?
               <br />
-              <span className="text-accent">Remove AI Fakes.</span>
+              <span className="text-accent">We Take Them Down.</span>
             </h1>
 
             <p className="animate-fade-up delay-200 mt-8 text-base md:text-lg text-primary-foreground/40 max-w-xl leading-relaxed">
-              Professional, discreet removal of deepfakes, AI-generated images,
-              and manipulated content from the internet. Every case handled with
-              absolute confidentiality.
+              Someone used AI to create fake images of you and posted them on Instagram,
+              TikTok, X, Reddit, or worse. You don&apos;t need to figure this out alone.
+              We handle the removals — fast, discreetly, and professionally.
             </p>
 
             {/* CTAs */}
@@ -70,7 +70,7 @@ export function Hero() {
                 className="bg-accent text-accent-foreground hover:bg-accent/90 text-sm font-semibold px-7 h-13 transition-all duration-300 hover:shadow-xl hover:shadow-accent/25 group animate-pulse-ring"
               >
                 <a href="#contact" className="flex items-center gap-2.5">
-                  Start Confidential Request
+                  Get Help Now
                   <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
                 </a>
               </Button>
@@ -80,7 +80,7 @@ export function Hero() {
                 size="lg"
                 className="text-primary-foreground/40 hover:text-primary-foreground hover:bg-primary-foreground/[0.04] text-sm font-medium px-7 h-13"
               >
-                <a href="#process">See How It Works</a>
+                <a href="#services">See How It Works</a>
               </Button>
             </div>
 
@@ -89,8 +89,9 @@ export function Hero() {
               <div className="flex flex-wrap gap-x-8 gap-y-3">
                 {[
                   { icon: ShieldCheck, text: "100% Confidential" },
-                  { icon: Clock, text: "24-Hour Response" },
+                  { icon: Zap, text: "24-Hour Response" },
                   { icon: Lock, text: "End-to-End Encrypted" },
+                  { icon: Clock, text: "500+ Cases Handled" },
                 ].map((item) => (
                   <div key={item.text} className="flex items-center gap-2">
                     <item.icon className="h-4 w-4 text-accent/60" />
@@ -122,7 +123,7 @@ export function Hero() {
 
               {/* Floating stat cards */}
               <div className="absolute -top-4 -left-8 animate-fade-up delay-600 bg-primary-foreground/[0.06] backdrop-blur-md border border-primary-foreground/[0.08] rounded-lg px-4 py-3">
-                <p className="text-[10px] tracking-[0.15em] uppercase text-primary-foreground/30 mb-0.5">Cases</p>
+                <p className="text-[10px] tracking-[0.15em] uppercase text-primary-foreground/30 mb-0.5">Removed</p>
                 <p className="font-serif text-xl font-semibold text-accent leading-none">500+</p>
               </div>
               <div className="absolute -bottom-2 -right-6 animate-fade-up delay-700 bg-primary-foreground/[0.06] backdrop-blur-md border border-primary-foreground/[0.08] rounded-lg px-4 py-3">

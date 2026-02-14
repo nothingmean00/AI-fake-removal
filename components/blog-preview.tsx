@@ -26,12 +26,12 @@ export function BlogPreview() {
         <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-16">
           <div className="max-w-xl">
             <p className="text-[11px] tracking-[0.2em] uppercase text-accent font-semibold mb-4">
-              Latest Insights
+              Know Your Rights
             </p>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-[2.75rem] font-semibold text-foreground tracking-tight leading-[1.15] text-balance">
-              Expert Resources &
+              Understanding AI Fakes,
               <br className="hidden md:block" />
-              Industry Updates
+              Your Rights & Your Options
             </h2>
           </div>
           <Button

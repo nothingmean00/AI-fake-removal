@@ -5,22 +5,22 @@ import { Shield, Quote } from "lucide-react"
 
 const testimonials = [
   {
-    quote: "They handled my case with a level of professionalism and discretion I didn't think was possible. The content was removed from three platforms within two weeks.",
-    initials: "M.K.",
-    role: "Executive",
-    detail: "AI-generated image removal",
+    quote: "A fake AI image of me was circulating on social media. As a physician, this could have ended my career. They had it removed from every platform within a week. I could finally breathe again.",
+    initials: "D.L.",
+    role: "Physician",
+    detail: "AI-generated image — 3 platforms",
   },
   {
-    quote: "I was devastated and didn't know where to turn. Their team guided me through every step with compassion and got results when the platforms had ignored my own reports.",
-    initials: "S.R.",
+    quote: "Someone at my son's school used AI to create fake images of him. We were terrified and didn't know where to turn. They handled everything — removals, documentation, and pointed us to legal resources. Every single image is gone.",
+    initials: "R.M.",
     role: "Parent",
-    detail: "Non-consensual content case",
+    detail: "Minor protection case",
   },
   {
-    quote: "As a public figure, this kind of threat can destroy everything you've built. They moved fast, kept me informed, and resolved the situation before it spread further.",
-    initials: "J.T.",
-    role: "Public Figure",
-    detail: "Deepfake campaign removal",
+    quote: "Fake AI photos of me were being used on dozens of accounts across Instagram and Reddit. My own reports were ignored for weeks. They got every single one taken down and the accounts banned within days.",
+    initials: "A.K.",
+    role: "Content Creator",
+    detail: "Multi-platform removal — 20+ accounts",
   },
 ]
 
@@ -46,12 +46,12 @@ export function Testimonials() {
       <div className="relative mx-auto max-w-7xl px-6 lg:px-10">
         <div className="text-center max-w-xl mx-auto mb-16">
           <p className="text-[11px] tracking-[0.2em] uppercase text-accent font-semibold mb-4">
-            Client Experiences
+            Real Results
           </p>
           <h2 className="font-serif text-3xl md:text-4xl lg:text-[2.75rem] font-semibold tracking-tight leading-[1.15] text-balance">
-            Trusted by Those
+            People Who Were
             <br />
-            We Have Helped
+            Where You Are Now
           </h2>
           <p className="mt-4 text-sm text-primary-foreground/30 leading-relaxed">
             Identities protected. Real outcomes shared with permission.

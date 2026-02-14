@@ -5,10 +5,10 @@ import { Button } from "@/components/ui/button"
 import { useInView } from "@/hooks/use-in-view"
 
 const timeline = [
-  { time: "First hour", event: "Content is indexed by search engines", severity: 1 },
-  { time: "First day", event: "Downloaded and re-shared across platforms", severity: 2 },
-  { time: "First week", event: "Embedded in forum threads and cached copies", severity: 3 },
-  { time: "First month", event: "Significantly harder and more costly to remove", severity: 4 },
+  { time: "First hour", event: "Fake AI images get indexed by Google — they appear when someone searches your name", severity: 1 },
+  { time: "First day", event: "Screenshots spread through group chats, DMs, and get reposted on other platforms", severity: 2 },
+  { time: "First week", event: "Content is cached, re-uploaded to forums and image boards you can't reach on your own", severity: 3 },
+  { time: "First month", event: "Removal becomes significantly harder, more expensive, and may require legal action", severity: 4 },
 ]
 
 export function Urgency() {
@@ -43,15 +43,16 @@ export function Urgency() {
             </div>
 
             <h2 className="font-serif text-3xl md:text-4xl lg:text-[2.75rem] font-semibold tracking-tight leading-[1.15] text-balance">
-              Every Hour That Passes
+              Every Hour You Wait,
               <br />
-              <span className="text-accent">Makes Removal Harder</span>
+              <span className="text-accent">the Damage Compounds</span>
             </h2>
 
             <p className="mt-6 text-base text-primary-foreground/35 leading-relaxed max-w-lg">
-              AI-generated content spreads rapidly. It gets downloaded, re-shared,
-              cached, and indexed within minutes. The longer it stays online, the
-              more difficult and expensive complete removal becomes.
+              AI fakes spread faster than you can report them alone. They get screenshotted,
+              reposted, cached, and indexed — sometimes within minutes. The longer fake
+              images of you stay online, the harder and more expensive it becomes to remove
+              every copy.
             </p>
 
             <Button
