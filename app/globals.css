@@ -1,0 +1,133 @@
+@import "tailwindcss";
+@config "../tailwind.config.ts";
+
+@theme {
+  /* Border radius */
+  --radius-lg: 0.5rem;
+  --radius-md: calc(0.5rem - 2px);
+  --radius-sm: calc(0.5rem - 4px);
+
+  /* Font families */
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+  --font-serif: var(--font-playfair), Georgia, serif;
+
+  /* Animations */
+  --animate-accordion-down: accordion-down 0.2s ease-out;
+  --animate-accordion-up: accordion-up 0.2s ease-out;
+}
+
+@keyframes accordion-down {
+  from { height: 0; }
+  to { height: var(--radix-accordion-content-height); }
+}
+
+@keyframes accordion-up {
+  from { height: var(--radix-accordion-content-height); }
+  to { height: 0; }
+}
+
+:root {
+  /* ── Trust-inspired color palette ── */
+  /* Deep, rich blues that convey security and professionalism */
+  --background: 214 32% 96%;
+  --foreground: 217 55% 17%;
+  --card: 213 35% 99%;
+  --card-foreground: 217 55% 17%;
+  --popover: 213 35% 99%;
+  --popover-foreground: 217 55% 17%;
+  --primary: 217 72% 22%;
+  --primary-foreground: 210 40% 98%;
+  --secondary: 213 40% 91%;
+  --secondary-foreground: 217 55% 17%;
+  --muted: 214 30% 92%;
+  --muted-foreground: 217 20% 46%;
+  --accent: 37 90% 51%;
+  --accent-foreground: 217 72% 14%;
+  --destructive: 0 72% 51%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 214 28% 86%;
+  --input: 214 28% 86%;
+  --ring: 217 72% 22%;
+  --radius: 0.5rem;
+  --chart-1: 217 72% 40%;
+  --chart-2: 173 58% 39%;
+  --chart-3: 197 50% 32%;
+  --chart-4: 37 80% 55%;
+  --chart-5: 27 87% 57%;
+  --sidebar-background: 217 72% 22%;
+  --sidebar-foreground: 210 40% 98%;
+  --sidebar-primary: 37 90% 51%;
+  --sidebar-primary-foreground: 217 72% 14%;
+  --sidebar-accent: 217 60% 28%;
+  --sidebar-accent-foreground: 210 40% 98%;
+  --sidebar-border: 217 50% 30%;
+  --sidebar-ring: 37 90% 51%;
+}
+
+@layer base {
+  * {
+    border-color: hsl(var(--border));
+  }
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* ── Animations ─────────────────────────── */
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(30px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes slide-in-right {
+  from { opacity: 0; transform: translateX(40px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+@keyframes pulse-ring {
+  0%   { box-shadow: 0 0 0 0 hsl(37 90% 51% / 0.35); }
+  70%  { box-shadow: 0 0 0 14px hsl(37 90% 51% / 0); }
+  100% { box-shadow: 0 0 0 0 hsl(37 90% 51% / 0); }
+}
+@keyframes shield-float {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-8px); }
+}
+@keyframes draw-line {
+  from { stroke-dashoffset: 100; }
+  to   { stroke-dashoffset: 0; }
+}
+@keyframes counter {
+  from { opacity: 0; transform: scale(0.8); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+.animate-fade-up      { animation: fade-up 0.8s cubic-bezier(0.16,1,0.3,1) both; }
+.animate-fade-in      { animation: fade-in 0.7s ease-out both; }
+.animate-slide-right  { animation: slide-in-right 0.8s cubic-bezier(0.16,1,0.3,1) both; }
+.animate-pulse-ring   { animation: pulse-ring 2.5s infinite; }
+.animate-shield-float { animation: shield-float 4s ease-in-out infinite; }
+.animate-counter      { animation: counter 0.6s cubic-bezier(0.16,1,0.3,1) both; }
+
+.delay-100 { animation-delay: 100ms; }
+.delay-200 { animation-delay: 200ms; }
+.delay-300 { animation-delay: 300ms; }
+.delay-400 { animation-delay: 400ms; }
+.delay-500 { animation-delay: 500ms; }
+.delay-600 { animation-delay: 600ms; }
+.delay-700 { animation-delay: 700ms; }
+.delay-800 { animation-delay: 800ms; }
+.delay-1000 { animation-delay: 1000ms; }
