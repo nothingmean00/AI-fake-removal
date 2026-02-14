@@ -1,10 +1,14 @@
 import type { Metadata } from 'next'
-import { Inter, Playfair_Display } from 'next/font/google'
+import { DM_Sans, Cormorant_Garamond } from 'next/font/google'
 
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
-const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' })
+const dmSans = DM_Sans({ subsets: ['latin'], variable: '--font-dm-sans' })
+const cormorant = Cormorant_Garamond({
+  subsets: ['latin'],
+  variable: '--font-cormorant',
+  weight: ['300', '400', '500', '600', '700'],
+})
 
 export const metadata: Metadata = {
   title: 'AI Fake Removal — Get Fake AI Images Taken Down Fast',
@@ -17,7 +21,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${playfair.variable}`}>
+    <html lang="en" className={`${dmSans.variable} ${cormorant.variable}`}>
       <body className="font-sans antialiased">{children}</body>
     </html>
   )
