@@ -75,9 +75,9 @@ At AIFakeRemoval, we've updated all our processes to leverage these new legal re
   },
   {
     slug: "how-to-report-deepfakes-platform-by-platform-guide",
-    title: "How to Report Deepfakes: A Platform-by-Platform Guide",
+    title: "How to Report and Remove Deepfakes: Instagram, TikTok, X, Reddit Guide (2026)",
     excerpt:
-      "From Instagram to TikTok, every major platform has a different reporting process. This step-by-step guide walks you through each one so you know exactly what to do.",
+      "Someone posted a fake AI image of you on Instagram, TikTok, X, or Reddit? Every platform has a different reporting process. This step-by-step guide walks you through exactly what to do on each one.",
     category: "Guides",
     date: "2026-01-28",
     readTime: "10 min read",
@@ -170,9 +170,9 @@ Speed matters. Content that stays online longer becomes harder to fully remove a
   },
   {
     slug: "ai-deepfake-detection-how-experts-identify-fake-content",
-    title: "AI Deepfake Detection: How Experts Identify Fake Content in 2026",
+    title: "How to Tell If an Image Is AI-Generated: Expert Detection Methods (2026)",
     excerpt:
-      "Deepfakes are getting harder to spot with the naked eye. Learn about the cutting-edge detection methods professionals use to identify AI-generated images and videos.",
+      "Is that image of you real or AI-generated? Deepfakes are nearly impossible to spot visually now. Learn the detection methods professionals use to prove images are fake — critical for removal requests and legal cases.",
     category: "Technology",
     date: "2026-01-15",
     readTime: "7 min read",
@@ -236,9 +236,9 @@ Detection technology is a critical tool in the fight against deepfakes, but it's
   },
   {
     slug: "protecting-your-digital-identity-prevention-guide",
-    title: "Protecting Your Digital Identity: A Prevention Guide for 2026",
+    title: "How to Prevent AI Fakes of You: Digital Identity Protection Guide (2026)",
     excerpt:
-      "The best defense against deepfakes is prevention. Learn practical steps to reduce your risk, monitor your online presence, and act quickly if your likeness is misused.",
+      "How to stop someone from making fake AI images of you. Practical steps to reduce your risk, monitor your online presence, lock down your photos, and act fast if your likeness is misused.",
     category: "Prevention",
     date: "2026-01-02",
     readTime: "6 min read",
@@ -351,9 +351,9 @@ The goal isn't to disappear from the internet — it's to maintain control over 
   },
   {
     slug: "deepfake-crisis-management-for-businesses",
-    title: "Deepfake Crisis Management: A Playbook for Businesses",
+    title: "Someone Made a Deepfake of Your CEO: Business Crisis Response Playbook",
     excerpt:
-      "When a deepfake targets your CEO, your brand, or your employees, the response must be swift and coordinated. Here's the enterprise playbook for deepfake incident response.",
+      "A fake AI image of your executive is spreading online. What do you do in the first 2 hours? The first 24? Here's the enterprise playbook for deepfake incident response — from detection to removal to recovery.",
     category: "Business",
     date: "2025-12-18",
     readTime: "9 min read",
@@ -460,9 +460,9 @@ The investment in preparation is minimal compared to the potential cost of an un
   },
   {
     slug: "the-psychology-of-deepfake-victimization",
-    title: "The Psychology of Deepfake Victimization: Understanding the Impact",
+    title: "I Found a Deepfake of Myself: The Psychological Impact and How to Cope",
     excerpt:
-      "Deepfake abuse causes real psychological harm. Understanding the emotional impact is the first step toward recovery — and toward building a support system that works.",
+      "Discovering a fake AI image of yourself causes real psychological harm — shame, anxiety, hypervigilance, trust erosion. You're not overreacting. Here's what victims experience and how to recover.",
     category: "Awareness",
     date: "2025-12-05",
     readTime: "7 min read",

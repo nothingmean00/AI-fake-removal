@@ -6,9 +6,25 @@ import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 
 export const metadata: Metadata = {
-  title: "Blog — AIFakeRemoval | Deepfake News, Guides & Resources",
+  title: "Blog — AIFakeRemoval | Deepfake Removal Guides, AI Fake News & Your Rights",
   description:
-    "Expert insights on deepfake removal, AI content legislation, detection technology, and protecting your digital identity. Stay informed with the latest from AIFakeRemoval.",
+    "Learn how to remove fake AI images, understand the TAKE IT DOWN Act, report deepfakes platform by platform, and protect your digital identity. Expert guides from AIFakeRemoval.",
+  openGraph: {
+    title: "AIFakeRemoval Blog — Guides, Rights & Resources",
+    description:
+      "Learn how to remove fake AI images, understand your legal rights, and protect your digital identity.",
+    type: "website",
+    siteName: "AIFakeRemoval",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "AIFakeRemoval Blog — Guides, Rights & Resources",
+    description:
+      "Learn how to remove fake AI images, understand your legal rights, and protect your digital identity.",
+  },
+  alternates: {
+    canonical: "/blog",
+  },
 }
 
 export default function BlogPage() {

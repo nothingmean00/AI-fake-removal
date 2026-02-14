@@ -22,8 +22,24 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const post = getBlogPost(slug)
   if (!post) return { title: "Post Not Found" }
   return {
-    title: `${post.title} — AIFakeRemoval Blog`,
+    title: `${post.title} — AIFakeRemoval`,
     description: post.excerpt,
+    openGraph: {
+      title: post.title,
+      description: post.excerpt,
+      type: "article",
+      publishedTime: post.date,
+      authors: [post.author],
+      siteName: "AIFakeRemoval",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.excerpt,
+    },
+    alternates: {
+      canonical: `/blog/${slug}`,
+    },
   }
 }
 
